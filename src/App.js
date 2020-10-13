@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import styled from '@emotion/styled';
-import imagen from './cryptomonedas.png';
 import Formulario from './components/Formulario';
 import Cotizacion from './components/Cotizacion';
 import Spinner from './components/Spinner';
+import imagen from './cryptomonedas.png';
+import styled from '@emotion/styled';
 import axios from 'axios';
 
 const Contenedor = styled.div`
